@@ -34,8 +34,8 @@ hbs.registerHelper('getFullYear',() => {
 
 app.get('/',(req,res) => {
   res.render('home.hbs',{
-    pageTitle : 'Home Page',
-    welcomeMessage : 'Welcome to the Home Page'
+    pageTitle : 'Index Page',
+    welcomeMessage : 'Welcome to the Index Page'
   })
 })
 
